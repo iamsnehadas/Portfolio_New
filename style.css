@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;    
+    background: linear-gradient(rgb(27, 27, 27), white, rgb(100, 159, 159), white, rgb(53, 37, 8));
+    background-image: url(ch4.jpg);
+}
+.introduce-box{
+    border: 2px rgb(248, 246, 246) solid;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(223, 233, 233);
+    text-shadow: 0 0 4px #000000, 0 0 4px #000000, 0 0 4px #000000, 0 0 4px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.short-about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(237, 237, 237);
+    text-shadow: 0 0 4px #000000, 0 0 4px #000000, 0 0 4px #000000, 0 0 4px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.line{
+    border-left: 2px whitesmoke solid;
+    height: 10vh;
+    width: 1px;
+    margin-left: 50%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.branching{
+    display: flex;
+    justify-content: center;
+}
+.sub-branching1{
+    border: 2px whitesmoke solid;
+    border-left: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+a{
+    color: lemonchiffon;
+}
+a:hover{
+    color: peru;
+}
+.up-line{
+    border-left: 2px whitesmoke solid;
+    height: 10vh;
+    width: 1px;
+    margin-top: 0%;
+    margin-left: 50%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.logo-im{
+    display: flex;
+    justify-content: center;    
+    margin-top: 5%;
+    
+}
+.image-logo{
+    height: 130px;
+    width: auto;
+    border: 3px black solid;
+    padding: 5px;
+    border-radius: 100%;
+    background: radial-gradient(white, grey, black);
+}
+.branching-first{
+    border-left: 2px rgb(249, 247, 247) solid;
+}
+.sidebar {
+    height: 100%;
+    width: 5%; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #11111195;
+    overflow-x: hidden;
+    padding-top: 15%;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+.logo{
+    height: 30px;
+    width: auto;
+}
+*{
+    box-sizing: border-box;
+}
