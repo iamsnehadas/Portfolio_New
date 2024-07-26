@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    padding: 12px;
+    color:rgb(17, 17, 17);
+    font-weight: bold;
+    border-bottom: 1px solid #070707;
+    width: 1000px;
+    background-color: transparent;
+    resize: vertical;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  input[type=submit] {
+    background-color: rgb(7, 78, 109);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ::placeholder{
+    color: #0e170e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }  
+  input[type=submit]:hover {
+    background-color: #0e170e;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    margin-left: 20px;
+  }
+  
+  .col-75 {
+    float: left;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  body{
+      background-image: url(ch4.jpg);
+      color: aliceblue;
+  }
+  .definition{
+    color: antiquewhite;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px black solid;
+    background: radial-gradient(black, rgb(70, 69, 69));
+    padding: 2%;
+  }
+  .contact{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 3px black solid;
+    background: radial-gradient(black, grey);
+    height:100%;
+    margin-top: 2%;
+    padding: 1%;
+ }
+ .email{
+    padding: 1%;
+ }
+ 
+.return-home{
+    margin-top: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    width: 30px;
+}
