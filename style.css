@@ -1,3 +1,17 @@
+.logo-im{
+    display: flex;
+    justify-content: center;    
+    margin-top: 5%;
+    
+}
+.image-logo{
+    height: 130px;
+    width: auto;
+    border: 3px black solid;
+    padding: 5px;
+    border-radius: 100%;
+    background: radial-gradient(white, grey, black);
+}
 body{
     margin: 0;
     padding: 0;
@@ -64,20 +78,6 @@ a:hover{
     margin-left: 50%;
     margin-bottom: 0;
     padding-bottom: 0;
-}
-.logo-im{
-    display: flex;
-    justify-content: center;    
-    margin-top: 5%;
-    
-}
-.image-logo{
-    height: 130px;
-    width: auto;
-    border: 3px black solid;
-    padding: 5px;
-    border-radius: 100%;
-    background: radial-gradient(white, grey, black);
 }
 .branching-first{
     border-left: 2px rgb(249, 247, 247) solid;
